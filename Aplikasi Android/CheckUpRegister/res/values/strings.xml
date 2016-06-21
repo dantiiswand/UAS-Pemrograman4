@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check Up Register</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_profil">ProfilActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_dokter">DokterActivity</string>
+    <string name="title_activity_jadwal_dokter">JadwalDokterActivity</string>
+    <string name="title_activity_list__dokter">List_Dokter</string>
+    <string name="title_activity_list_dokter">List_dokter</string>
+    <string name="title_activity_detail_dokter">DetailDokterActivity</string>
+    <string name="title_activity_form_reg">FormRegActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_activity_list_history">Activity_list_history</string>
+    <string name="title_activity_detail_dok">DetailDokActivity</string>
+
+</resources>

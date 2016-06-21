@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FormRegActivity" >
+
+    <EditText
+        android:id="@+id/editIDPasien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="(input your ID number)" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@+id/editIDPasien"
+        android:text="ID Pasien" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:text="ID Dokter" />
+
+    <EditText
+        android:id="@+id/editIDDokter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/editIDPasien"
+        android:ems="10"
+        android:hint="(see in doctor list)" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonRegis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editIDDokter"
+        android:layout_below="@+id/editIDDokter"
+        android:layout_marginTop="42dp"
+        android:text="Registration" />
+
+    <Button
+        android:id="@+id/buttonCancelForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonRegis"
+        android:layout_alignLeft="@+id/textView2"
+        android:text="Cancel" />
+
+</RelativeLayout>
